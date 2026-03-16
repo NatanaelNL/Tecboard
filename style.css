@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    font-size: 62.5%;
+    --cor-background-dark:#0E1014; 
+    --cor-textos: #FFFFFF;
+    --cor-destaque: #9747FF;
+    --cor-botao-hover: #8233E8;
+}
+body {
+    background-color: var(--cor-background-dark);
+}
+header img {
+    margin: 7.5rem auto 6rem 36rem;
+}
+h1, p {
+    color: var(--cor-textos);
+}
+h1 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 6.4rem;
+    font-weight: bold;
+    margin-bottom: 2.4rem;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+span {
+    color: var(--cor-destaque);
+
+}
+a {
+    color: var(--cor-textos);
+    background-color:  var(--cor-destaque);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 3.6rem;
+    padding: 2.4rem 4.8rem;
+    margin-bottom: 4rem;
+}
+a:hover {
+    background-color: var(--cor-botao-hover);
+}
+section {
+    margin: 0 56.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 79.2rem;
+    height: 44.6rem;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        margin: 6rem auto 7.2rem 6.5rem ;
+    }
+    section {
+        margin: 0 6rem;
+    }
+    h1 {
+        text-align: center;
+    }
+    section img {
+        width: 66rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    header img {
+        margin: 3.2rem auto 6rem 1.6rem;
+    }
+    section {
+        margin: 0 1.7rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    a {
+        font-size: 2rem;
+        padding: 2.4rem;
+    }
+    section img {
+        width: 34.1rem;
+        height: 23.1rem;
+    }
+}
