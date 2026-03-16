@@ -5,8 +5,8 @@
 }
 :root {
     font-size: 62.5%;
-    --cor-background-dark:#FFFFFF; 
-    --cor-textos: #000000;
+    --cor-background-dark:#0E1014; 
+    --cor-textos: #FFFFFF;
     --cor-destaque: #9747FF;
     --cor-botao-hover: #8233E8;
 }
